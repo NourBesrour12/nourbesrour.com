@@ -1,0 +1,192 @@
+
+body {
+    background-color:white;
+    margin:25px;
+}
+nav.nav ul li {
+    display:inline-block;
+    list-style-type: none;
+}
+nav.nav{
+    margin: 25px;
+}
+nav.nav ul li a {
+    color:#313131;
+    text-decoration: none;
+    font-size: 43px;
+    font-weight: 700;
+    display:block;
+    overflow:hidden;
+    transition:0.3s all;
+    padding:20px 30px;
+
+}
+nav.nav ul li a:before{
+    color:rgb(250,235,215);
+    text-decoration: none;
+    background-color: white;
+    padding:5px;
+    transition: 0.7s all;
+}
+nav.nav ul li a:hover{
+    color:#313131;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 700;
+    display:block;
+    overflow:hidden;
+    transition:0.5s all;
+    padding:14px 20px;
+}
+.desphoto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.desphoto h1{
+    color:#85BAFF;
+    font-size: 100px;
+}
+.desguitar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.desguitar h1{
+    color:#550000;
+    font-size: 100px;
+}
+.desviolon{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+.desviolon h1{
+    color:#550000;
+    font-size: 100px;
+}
+.desguitar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.desguitar h1{
+    color:#550000;
+    font-size: 100px;
+}
+.desviolon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.desviolon h1{
+    color:#550000;
+    font-size: 100px;
+}
+.desbooks{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: left 100;
+}
+.desbooks h1{
+    color:#550000;
+    font-size: 70px; 
+}
+.photography1{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.photography2{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.photography3{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.photography4{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.photography5{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.photography6{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.photography7{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.photography9{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.photography10{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.photography12{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.photography13{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.photography14{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.vidguitar{
+    padding-left: 50px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.vidviolon{
+    padding-left: 50px;
+    display:grid;
+    justify-content: center;
+}
+
+.books1{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    padding-left: 100px;
+}
+.books2{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    padding-left: 100px;
+}
+.descode{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.descode h1{
+    color:#6B4663;
+    font-size: 70px; 
+}
+.titlePG{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.titlePG h3{
+    color:#A92F2F;
+    font-size: 50px;
+}
+.imgPG{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+*{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
